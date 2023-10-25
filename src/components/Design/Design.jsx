@@ -39,16 +39,18 @@ const Design = () => {
                         </svg>
                     </a>
                 </div>
-                <div className="relative" >
-                    <button
+                <div className="inline-block" >
+                    <a
+                        href='./cv-luis-fernando-santos.pdf'
                         className="group bg-gradient-to-r from-secondary-100 to-secondary-900 px-8 py-3 rounded-md text-white text-lg hover:from-sky-800 hover:to-sky-950 hover:cursor-pointer flex items-center transition-all duration-1000 w-full md:w-auto justify-center md:justify-start relative"
-                        type="button"
+                        download
+                        rel='noopener noreferrer'
                     >
                         Descargar CV
                         <span className='group-hover:rotate-90 duration-300'>
                             <MdOutlineKeyboardArrowRight size={ 25 } className='ml-1' />
                         </span>
-                    </button>
+                    </a>
                 </div>
             </div>
             <div className=''>
