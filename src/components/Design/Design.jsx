@@ -41,7 +41,7 @@ const Design = () => {
                 </div>
                 <div className="w-full md:w-auto inline-block" >
                     <a
-                        href='./CV_Luis.pdf'
+                        href='./cv-Luis-Santos.pdf'
                         className="group bg-gradient-to-r from-secondary-100 to-secondary-900 px-8 py-3 rounded-md text-white text-lg hover:from-sky-800 hover:to-sky-950 hover:cursor-pointer flex items-center transition-all duration-1000 w-full md:w-auto justify-center md:justify-start relative"
                         download
                         rel='noopener noreferrer'
