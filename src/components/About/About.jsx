@@ -4,7 +4,7 @@ const About = () => {
             <div className="lg:col-start-1 lg:col-end-3">
                 <img 
                     src="./foto.jpg" 
-                    alt="Image Photo" 
+                    alt="Image" 
                     className="w-full h-full mx-auto lg:mx-auto rounded-tl-lg rounded-bl-lg object-cover md:w-96 lg:w-full" 
                 />
             </div>
