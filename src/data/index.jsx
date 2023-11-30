@@ -1,5 +1,6 @@
-import { BracketsBlue, Js, Dts, Tailwind, Java, Reactjs, Angular, Git, PHP, Laravel } from "@react-symbols/icons";
+import { BracketsBlue, Js, Dts, Tailwind, Java, Reactjs, Angular, Git, PHP, Laravel, Node } from "@react-symbols/icons";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiExpress, SiMysql } from "react-icons/si";
 export const navbar = [
     {
         id: 1,
@@ -155,24 +156,49 @@ export const skills = [
         id: 14,
         child: (
             <>
-                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-flutter flex items-center justify-center h-20 w-20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#00abfb" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M7 14l-3 -3l8 -8h6z" />
-                    <path d="M14 21l-5 -5l5 -5h5l-5 5l5 5z" />
-                </svg>
+                <Node />
             </>
         ),
-        color: "shadow-sky-500",
-        title: "Flutter"
+        color: "shadow-green-500",
+        title: "Node Js"
     },
     {
         id: 15,
         child: (
             <>
-                <BiLogoPostgresql width="100px" height="100px" className="h-20 w-20 text-sky-600" />
+                <SiExpress className="h-20 w-20" />
             </>
         ),
-        color: "shadow-blue-500",
-        title: "PostGreSQL"
+        color: "shadow-gray-500",
+        title: "Express Js"
+    },
+    {
+        id: 16,
+        child: (
+            <>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-android flex items-center justify-center h-20 w-20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#009988" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 10l0 6" />
+                    <path d="M20 10l0 6" />
+                    <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+                    <path d="M8 3l1 2" />
+                    <path d="M16 3l-1 2" />
+                    <path d="M9 18l0 3" />
+                    <path d="M15 18l0 3" />
+                </svg>
+            </>
+        ),
+        color: "shadow-sky-500",
+        title: "Android"
+    },
+    {
+        id: 17,
+        child: (
+            <>
+                <SiMysql width="100px" height="100px" className="h-20 w-20 text-sky-600" />
+            </>
+        ),
+        color: "shadow-sky-500",
+        title: "MySQL"
     },
 ];

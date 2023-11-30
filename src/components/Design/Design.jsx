@@ -39,9 +39,9 @@ const Design = () => {
                         </svg>
                     </a>
                 </div>
-                <div className="inline-block" >
+                <div className="w-full md:w-auto inline-block" >
                     <a
-                        href='./cv-luis-fernando-santos.pdf'
+                        href='./CV_Luis_Fernando_Santos_Vargas.pdf'
                         className="group bg-gradient-to-r from-secondary-100 to-secondary-900 px-8 py-3 rounded-md text-white text-lg hover:from-sky-800 hover:to-sky-950 hover:cursor-pointer flex items-center transition-all duration-1000 w-full md:w-auto justify-center md:justify-start relative"
                         download
                         rel='noopener noreferrer'
@@ -60,9 +60,6 @@ const Design = () => {
                     className="w-64 h-64 md:w-72 md:h-72 lg:h-96 lg:w-96 object-cover rounded-full ring-2 overflow-hidden ring-secondary-100 mb-6 lg:mb-0" 
                 />
             </div>
-            {/* <div className="hidden md:block md:absolute top-72 -left-12 lg:top-[390px] lg:left-64 w-[25vw] h-[25vw] min-w-[400px] min-h-[400px] rounded-full bg-[rgba(25,55,109,0.5)] blur-[100px] z-[0]">
-
-            </div> */}
             
         </div>
     );

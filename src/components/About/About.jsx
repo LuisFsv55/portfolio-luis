@@ -5,7 +5,7 @@ const About = () => {
                 <img 
                     src="./foto.jpg" 
                     alt="Image" 
-                    className="w-full h-full mx-auto lg:mx-auto rounded-tl-lg rounded-bl-lg object-cover" 
+                    className="w-full h-full mx-auto lg:mx-auto rounded-tl-lg rounded-bl-lg object-cover md:w-96 lg:w-full" 
                 />
             </div>
             <div className="lg:col-start-3 col-end-7 h-full flex flex-col items-center justify-center bg-secondary-900/25 rounded-tr-lg rounded-br-lg p-8 mb-8 lg:mb-0">

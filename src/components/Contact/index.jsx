@@ -9,16 +9,16 @@ const Contact = () => {
                 </div>
                 <div className="">
                     <div className="h-auto grid grid-cols-2 justify-center items-center lg:flex gap-8 lg:justify-start">
-                        <p className="text-lg text-gray-200 mb-2 max-w-lg">
+                        <p className="text-sm md:text-lg text-gray-200 mb-2 max-w-lg">
                             Siéntete libre de contactarme en cualquier momento. ¡Me comunicaré contigo tan pronto como pueda!
                         </p>
                         <div>
                             <h3 className="text-lg font-bold text-white">Correo</h3>
-                            <p className="text-lg text-gray-200">luchinfsv10@gmail.com</p>
+                            <p className="text-sm md:text-lg text-gray-200">luchinfsv10@gmail.com</p>
                         </div>
                         <div>
                             <h3 className="text-lg font-bold text-white">Celular</h3>
-                            <p className="text-lg text-gray-200">+591 69038820</p>
+                            <p className="text-sm md:text-lg text-gray-200">+591 69038820</p>
                         </div>
                         <div className="flex gap-8">
                             <a href="https://www.facebook.com/fernando.sntosvargas?mibextid=9R9pXO" target="_blank" className="hover:cursor-pointer">
