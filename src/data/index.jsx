@@ -1,4 +1,4 @@
-import { BracketsBlue, Js, Dts, Tailwind, Java, Reactjs, Angular, Git, PHP, Laravel, Node } from "@react-symbols/icons";
+import { BracketsBlue, Js, Dts, Tailwind, Java, Reactjs, Angular, Git, PHP, Laravel, Node, Vue } from "@react-symbols/icons";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiExpress, SiMysql } from "react-icons/si";
 export const navbar = [
@@ -104,11 +104,11 @@ export const skills = [
         id: 8,
         child: (
             <>
-                <Angular width={70} />
+                <Vue width={70} />
             </>
         ),
-        color: "shadow-red-500",
-        title: "Angular"
+        color: "shadow-green-500",
+        title: "Vue"
     },
     {
         id: 9,
