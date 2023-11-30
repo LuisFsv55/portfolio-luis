@@ -33,7 +33,7 @@ export const skills = [
             </>
         ),
         color: "shadow-red-500",
-        title: "html"
+        title: "Html"
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ export const skills = [
             </>
         ),
         color: "shadow-blue-500",
-        title: "css"
+        title: "Css"
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ export const skills = [
             </>
         ),
         color: "shadow-yellow-500",
-        title: "js"
+        title: "JavaScript"
     },
     {
         id: 4,
